@@ -1,0 +1,84 @@
+SEARCH METHOD EVALUATION REPORT
+==================================================
+
+PERFORMANCE SUMMARY:
+------------------------------
+TFIDF:
+  Average Time: 0.0142s
+  Success Rate: 100.00%
+BM25:
+  Average Time: 0.0675s
+  Success Rate: 100.00%
+SPLADE:
+  Average Time: 0.0906s
+  Success Rate: 100.00%
+DENSE:
+  Average Time: 0.0441s
+  Success Rate: 100.00%
+HYBRID:
+  Average Time: 0.1142s
+  Success Rate: 100.00%
+
+RESULT OVERLAP ANALYSIS:
+------------------------------
+tfidf_vs_bm25: 50.00% overlap
+tfidf_vs_splade: 30.00% overlap
+tfidf_vs_dense: 20.00% overlap
+tfidf_vs_hybrid: 30.00% overlap
+bm25_vs_splade: 35.00% overlap
+bm25_vs_dense: 15.00% overlap
+bm25_vs_hybrid: 30.00% overlap
+splade_vs_dense: 35.00% overlap
+splade_vs_hybrid: 70.00% overlap
+dense_vs_hybrid: 45.00% overlap
+
+DETAILED QUERY RESULTS:
+------------------------------
+
+Query: 'running shoes for men'
+  TFIDF: 5 results in 0.0274s
+    Top result: Asics Trainers
+  BM25: 5 results in 0.0798s
+    Top result: Adidas Shoes
+  SPLADE: 5 results in 0.1270s
+    Top result: Asics Sneakers
+  DENSE: 5 results in 0.0630s
+    Top result: Nike Sneakers
+  HYBRID: 5 results in 0.1649s
+    Top result: Nike Shoes
+
+Query: 'women's athletic sneakers'
+  TFIDF: 5 results in 0.0090s
+    Top result: Asics Sneakers
+  BM25: 5 results in 0.0645s
+    Top result: Adidas Sneakers
+  SPLADE: 5 results in 0.0916s
+    Top result: Reebok Sneakers
+  DENSE: 5 results in 0.0425s
+    Top result: Nike Sneakers
+  HYBRID: 5 results in 0.1067s
+    Top result: Nike Sneakers
+
+Query: 'basketball shoes high top'
+  TFIDF: 5 results in 0.0085s
+    Top result: Reebok Shoes
+  BM25: 5 results in 0.0757s
+    Top result: Asics Shoes
+  SPLADE: 5 results in 0.0761s
+    Top result: Adidas Sneakers
+  DENSE: 5 results in 0.0394s
+    Top result: Nike Sneakers
+  HYBRID: 5 results in 0.0910s
+    Top result: Nike Shoes
+
+Query: 'comfortable walking shoes'
+  TFIDF: 5 results in 0.0119s
+    Top result: Asics Shoes
+  BM25: 5 results in 0.0497s
+    Top result: Asics Shoes
+  SPLADE: 5 results in 0.0677s
+    Top result: Reebok Sneakers
+  DENSE: 5 results in 0.0314s
+    Top result: Nike Sneakers
+  HYBRID: 5 results in 0.0943s
+    Top result: Asics Sneakers
