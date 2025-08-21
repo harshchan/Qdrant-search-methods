@@ -7,3 +7,6 @@
 4. To see the frontend results run (python main.py --mode streamlit)
 
 5. To see the evaluation results/ type your own query in ther terminal run (python main.py --mode search)
+
+
+In partnership with https://www.superteams.ai/
