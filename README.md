@@ -9,4 +9,4 @@
 5. To see the evaluation results/ type your own query in ther terminal run (python main.py --mode search)
 
 
-In partnership with https://www.superteams.ai/
+In partnership with [Superteams](https://www.superteams.ai/)
